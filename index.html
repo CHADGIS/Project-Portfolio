@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Richard F. Rojo Jr. - 
+        Data Analyst and GIS Specialist</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #86775F;
+        }
+
+        .container {
+            max-width: 1280px;
+            margin: 10px auto;
+            padding: 10px;
+            background: linear-gradient(to right, #02dbf8, #e6062b);
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(26, 87, 105, 0.1);
+            position: relative;/* Added for positioning the profile picture */
+        }
+
+        header {
+            overflow: hidden; /* Added for containing floats */
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #333;
+        }
+
+        p {
+            line-height: 3;
+        }
+
+        .profile-picture {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 200px;
+            height: 200px;
+            border-radius: 60%;
+            overflow: hidden;
+            border: 2px solid #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .profile-picture img {
+            width: 100%;
+            height: auto;
+        }
+
+        .profile-picture input[type="file"] {
+            position: absolute;
+            top: 49%;
+            left: 20%;
+            width: 200%;
+            height: 200%;
+            opacity: 0;
+            cursor: pointer;
+        }
+
+        .project {
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .project:last-child {
+            margin-bottom: 0;
+            padding-bottom: 0;
+            border-bottom: none;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            background: gradient(to right blue, red);
+            border: 2px solid #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .tableau {
+            max-width: 100%;
+            margin:10px auto;
+            background-color: #6d05054f;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(44, 29, 29, 0.1);
+            position: relative;
+        }
+
+        .tableauPlaceholder {
+            width: 100%;
+            height: auto;
+            padding-bottom: 30%;
+            position: relative;
+        }
+        .tableauViz {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+        }
+        
+    </style>
+</head>
+<body>
+
+
+    <div class="container">
+        <header>
+            <label for="profile-picture" class="profile-picture">
+                <img id="profile-img" src="image\image0.jpeg" alt="Profile Picture">
+                <input type="file" id="profile-picture" accept="image/*" onchange="previewProfilePicture(event)">
+            </label>
+            <h1 style = "margin-top: 20px;
+            font-size: 4.5em;
+            color: #666262;
+            background: linear-gradient(to right, #333232, #030303);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 2s ease-in-out;">Richard F. Rojo Jr.</h1>
+            <div>
+                <p style = "font-size: 20px;
+                font-weight: bolder;
+                font-style: normal;"
+                >Freelancer Data Analyst and GIS Specialist</p>
+            </div>
+                <div style= "border-bottom: 2px solid white;">
+                <p" style = "font-size: 20px;
+                font-weight: bolder;
+                font-style: normal;">Email Adress: richardrojo61@gmail.com</p>
+                <p" style = "font-size: 20px;
+                font-weight: bolder;
+                font-style: normal;">Phone: +639455411724
+                </p>
+                <p" style = "font-size: 20px;
+                        font-weight: bolder;
+                        font-style: normal;">
+                 LinkedIn: <A href = 'www.linkedin.com/in/richard-rojo-3396b72b5'
+                 src= www.linkedin.com/in/richard-rojo-3396b72b5
+                 style = "font-size: 12px;
+                            font-style: italic;
+                            color: black;"
+                            > 
+                        www.linkedin.com/in/richard-rojo-3396b72b5
+                    </A>                    
+                </p>
+                <pstyle style= "font-size: 20px;
+                font-weight: bolder;
+                font-style: normal;">Upwork: <A href="https://www.upwork.com/freelancers/~01c94604f88f19d080?mp_source=share" 
+                    src = 'https://www.upwork.com/freelancers/~01c94604f88f19d080?mp_source=share'
+                    style = "font-size: 12px;
+                            font-style: italic;
+                            color: black;"
+                    >https://www.upwork.com/freelancers/~01c94604f88f19d080?mp_source=share</A>
+                </P>
+                </div>
+
+            
+        </header>
+        <section id = "introduction" 
+        style = "height: auto;
+                width:fit-content;
+                line-break: auto;"
+                >
+            <div>
+                <h4
+                style="font-size: 23px;
+                font-weight: bolder;
+                font-style: normal;
+                font-family: Arial, Helvetica, sans-serif;"> INTRODUCTION </h4>
+                <p
+                style="font-size: 18px;
+                font-style: normal;
+                font-family: Arial, Helvetica, sans-serif;"
+                >Welcome to My Project Portfolio! Here, you'll find a selection of my works and projects,
+                    showcasing my skills and experience as a data analyst and GIS Specialist. Here you'll see
+                    some interactive dashboards and maps.
+                </p>
+            </div> 
+            <div>
+                <h4
+                style="font-size: 23px;
+                font-weight: bolder;
+                font-style: normal;
+                font-family: Arial, Helvetica, sans-serif;"> ABOUT ME </h4>
+                <p
+                style="font-size: 18px;
+                font-style: normal;
+                font-family: Arial, Helvetica, sans-serif;"
+                >Hello! I'm a passionate Data Analyst and GIS Specialist, I possess extensive experties in SQL database management specialy in postgres and SQL language, along 
+                with proficiency in tableau for data Visualization and Analysis, Power BI, postgres SQL and excel. I also have some knowledge in python and R programming language and currently improving these skills.
+
+                </p>
+            </div>   
+            <section>
+                
+                    
+                 <div class="section">
+                   <h2>Education</h2>
+                     <ul>
+                        <li><strong>Bachelor of Science in Business Administration</strong><br>
+                            Palawan State University, Coron Palawan, Philippines<br>
+                         Graduated: Aug 2022
+                         </li>
+                         <li><strong>Information In Communication Technology(ICT)</strong><br>
+                            Coron School of Fisheries, Coron Palawan, Philippines<br>                                
+                            Graduated: June 2018
+                            </li>
+                         <li><strong>High School Diploma</strong><br>
+                            Coron School of Fisheries, Coron Palawan, Philippines<br>                                
+                            Graduated: June 2016
+                            </li>
+                        </ul>
+                    </div>
+                  
+            </section>
+            <div style= "border-bottom: 2px solid white;">
+                <h4
+                style="font-size: 23px;
+                font-weight: bolder;
+                font-style: normal;
+                font-family: Arial, Helvetica, sans-serif;"> SKILLS </h4>
+                <ul
+                style="font-size: 18px;
+                font-style: normal;
+                font-family: Arial, Helvetica, sans-serif;
+                "
+                >
+                    <li>SQL database Management</li>
+                    <li>Postgres SQL</li>
+                    <li>Tableau</li>
+                    <li>Power BI</LI>
+                    <li>Data Analyst</li>
+                    <li>QGIS</li>
+                    <li>DashBoards</li>
+                    <li>excel</li>
+                    <li>Excel Pivot Tables</li>
+                    <li>Basic Knowledge in python programing language</li>
+                    <li>Basic Knowledge in R programming language</li>
+                </ul>
+            </div>   
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3 style="color: #f3f3f3;
+                text-align: center;
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 30px;
+                background-color: rgb(54, 52, 52);
+                padding: 10px 20px;
+                border-radius: 5px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                transition: background-color 0.3s, color 0.3s;
+                animation: colorChange .3s infinite alternate;">Tableu Data Visualization</h3>
+                <p>This project provides a comprehensive visualization of the electrical distribution system, including primary lines distribution, distribution transformers to customers, and the voltage profile of primary lines. It is designed to facilitate in-depth analysis of the electrical system and support future planning
+                    .</p>
+                </div>
+                <div class="tableau">
+                    <div> 
+                        <p style = "
+                            text-align: center;
+                            text-rendering: optimizeLegibility;
+                            text-transform: capitalize;
+                            color: rgb(27, 209, 241);
+                            font-size: 30px;
+                            font-weight: bold;
+                            font-family: Arial, Helvetica, sans-serif;
+                            background: -webkit-linear-gradient(to right(blue,red));"
+                            
+                            
+                        >THIS IS AN INTERACTIVE DASHBOARD</p>
+                    </div>
+                    <div class='tableauPlaceholder' id='viz1717323170716'>
+                        <noscript>
+                            <a href='#'>
+                                <img alt='HOME PAGE ' src='https://public.tableau.com/static/images/BI/BISELCO_DIS_VIZ/HOMEPAGE/1_rss.png' style='border: none' />
+                            </a>
+                        </noscript>
+                        <object class='tableauViz'>
+                            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                            <param name='embed_code_version' value='3' />
+                            <param name='site_root' value='' />
+                            <param name='name' value='BISELCO_DIS_VIZ/HOMEPAGE' />
+                            <param name='tabs' value='no' />
+                            <param name='toolbar' value='yes' />
+                            <param name='static_image' value='https://public.tableau.com/static/images/BI/BISELCO_DIS_VIZ/HOMEPAGE/1.png' />
+                            <param name='animate_transition' value='yes' />
+                            <param name='display_static_image' value='yes' />
+                            <param name='display_spinner' value='yes' />
+                            <param name='display_overlay' value='yes' />
+                            <param name='display_count' value='yes' />
+                            <param name='language' value='en-US' />
+                        </object>
+                    </div>
+                    <script type='text/javascript'>
+                        var divElement = document.getElementById('viz1717323170716');
+                        var vizElement = divElement.getElementsByTagName('object')[0];
+                        var scriptElement = document.createElement('script');
+                        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+                    </script>
+                </div> 
+            <div class="project">
+                <h3 style=" color: #f3f3f3;
+                text-align: center;
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 30px;
+                background-color: rgb(54, 52, 52);
+                padding: 10px 20px;
+                border-radius: 5px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                transition: background-color 0.3s, color 0.3s;
+                animation: colorChange .3s infinite alternate;">QGIS WEB MAP</h3>
+                  <p>This project provides a comprehensive visualization of the electrical distribution system, including primary lines distribution, distribution transformers to customers, and the voltage profile of primary lines. It is designed to facilitate in-depth analysis of the electrical system and support future planning.</p>
+                  
+                  <img src="image/BISELCO 1.0.png" alt="QGIS MAP IMAGE">
+                  <a href="webmap.html"
+                  style=" color: #f3f3f3;
+                  text-decoration: none;
+                  font-weight: bold;
+                  font-size: 18px;
+                  background-color: #142b35;
+                  padding: 10px 20px;
+                  border-radius: 5px;
+                  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                  transition: background-color 0.3s, color 0.3s;
+                  animation: colorChange .3s infinite alternate;">Link to navigate the full interactive GIS web map </a>
+            </div>
+            <div class = "projects">
+                <h3 style=" color: #f3f3f3;
+                text-align: center;
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 30px;
+                background-color: rgb(54, 52, 52);
+                padding: 10px 20px;
+                border-radius: 5px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                transition: background-color 0.3s, color 0.3s;
+                animation: colorChange .3s infinite alternate;"> SQL DATABASE MANAGEMENT</h3>
+                <P>I manage, clean, and prepare the data with the use of postgre SQL and query important data
+                    to prepare in visualization. To assure that the data has no duplicate values and no unwanted values I utilize using query that loops in every row. 
+                    Creating a view to convert in very schema needed for example tableau view is different schema in power Bi view or if needed by another programs that needs different schema.
+                </P>
+                <div class="image conatiner sql" style = 
+                " display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-rows: repeat(2, auto);
+                gap: 10px;
+                max-width: auto;
+                border: 2px solid #ccc;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);" >
+                    <a href="image/Screenshot (10).png">
+                    <img src="image/Screenshot (10).png" alt="image/Screenshot (10).png">
+                    </a>
+                    <a href="image/Screenshot (12).png">
+                    <img src="image/Screenshot (12).png" alt="image/Screenshot (12).png">
+                    </a> 
+                    <a href="image/Screenshot (19).png">
+                    <img src="image/Screenshot (19).png" alt="image/Screenshot (19).png">
+                    </a>
+                    <a href="image/Screenshot (20).png">
+                    <img src="image/Screenshot (20).png" alt="image/Screenshot (20).png">
+                    </a>
+                </div>
+            </div>
+
+        </section>
+
+
+<footer>
+ 
+</footer>
+
+    </div>
+
+    <script>
+        function previewProfilePicture(event) {
+            var input = event.target;
+            var reader = new FileReader();
+            reader.onload = function () {
+                var dataURL = reader.result;
+                var img = document.getElementById('profile-img');
+                img.src = dataURL;
+            };
+            reader.readAsDataURL(input.files[0]);
+        }
+
+    </script>
+
+</body>
+
+</html>
